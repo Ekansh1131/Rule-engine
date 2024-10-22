@@ -1,54 +1,57 @@
-Rule Engine Application
+# Rule Engine Application
+
 A dynamic rule engine application that allows users to create, combine, and evaluate business rules using a simple syntax. Built with Flask (Backend) and React (Frontend), this application provides a flexible way to manage and evaluate complex business rules.
-Table of Contents
 
-Features
-Technology Stack
-Prerequisites
-Installation and Setup
-Project Structure
-Usage Guide
-API Documentation
-Testing
-Contributing
-Troubleshooting
+## Table of Contents
 
-Features
+- [Features](#features)
+- [Technology Stack](#technology-stack)
+- [Prerequisites](#prerequisites)
+- [Installation and Setup](#installation-and-setup)
+- [Project Structure](#project-structure)
+- [Usage Guide](#usage-guide)
+- [API Documentation](#api-documentation)
+- [Testing](#testing)
+- [Contributing](#contributing)
+- [Troubleshooting](#troubleshooting)
+- [License](#license)
 
-Rule Creation: Create complex rules using conditions and logical operators
-Rule Combination: Combine multiple rules using AND/OR operators
-Rule Evaluation: Evaluate rules against user data
-Rule Management: Update and delete existing rules
-Visual Interface: User-friendly web interface for rule management
-RESTful API: Complete API for integration with other systems
+## Features
 
-Technology Stack
-Backend
+- **Rule Creation**: Create complex rules using conditions and logical operators
+- **Rule Combination**: Combine multiple rules using AND/OR operators
+- **Rule Evaluation**: Evaluate rules against user data
+- **Rule Management**: Update and delete existing rules
+- **Visual Interface**: User-friendly web interface for rule management
+- **RESTful API**: Complete API for integration with other systems
 
-Python 3.8+
-Flask Framework
-SQLAlchemy ORM
-SQLite Database
+## Technology Stack
 
-Frontend
+### Backend
+- Python 3.8+
+- Flask Framework
+- SQLAlchemy ORM
+- SQLite Database
 
-React.js
-Tailwind CSS
-Axios for API communication
+### Frontend
+- React.js
+- Tailwind CSS
+- Axios for API communication
 
-Prerequisites
+## Prerequisites
 
-Docker and Docker Compose (for containerized setup)
-Python 3.8+ (for local development)
-Node.js 14+ (for local development)
-Git
+- Docker and Docker Compose (for containerized setup)
+- Python 3.8+ (for local development)
+- Node.js 14+ (for local development)
+- Git
 
-Installation and Setup
-Option 1: Using Docker (Recommended)
+## Installation and Setup
 
-Clone the repository:
+### Option 1: Using Docker (Recommended)
 
-bashCopygit clone https://github.com/yourusername/rule-engine.git
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/rule-engine.git
 cd rule-engine
 
 Build and run with Docker Compose:
@@ -206,12 +209,12 @@ Check CORS configuration
 Verify API URL in frontend configuration
 
 Environment Variables
-Backend (.env):
+Backend (.env)
 CopyFLASK_APP=run.py
 FLASK_ENV=development
 DATABASE_URL=sqlite:///rules.db
 SECRET_KEY=your-secret-key
-Frontend (.env):
+Frontend (.env)
 CopyREACT_APP_API_URL=http://localhost:5000/api
 License
 Distributed under the MIT License. See LICENSE for more information.
