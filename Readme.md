@@ -51,7 +51,7 @@ A dynamic rule engine application that allows users to create, combine, and eval
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/rule-engine.git
+git clone https://github.com/Ekansh1131/rule-engine.git
 cd rule-engine
 
 Build and run with Docker Compose:
